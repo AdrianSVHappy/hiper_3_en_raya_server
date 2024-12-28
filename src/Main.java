@@ -1,3 +1,5 @@
+import cerebroPack.Cerebro;
+
 /**
  * <h1>Name.java</h1><hr>
  * <p>Esta clase represanta </p>
@@ -7,6 +9,10 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Server");
+
+        Cerebro cpu = new Cerebro();
+
+        cpu.partida();
+
     }
 }
