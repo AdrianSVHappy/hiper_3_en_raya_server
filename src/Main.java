@@ -1,4 +1,5 @@
 import cerebroPack.Cerebro;
+import redPack.ServerMain;
 
 /**
  * <h1>Name.java</h1><hr>
@@ -10,9 +11,11 @@ import cerebroPack.Cerebro;
 public class Main {
     public static void main(String[] args) {
 
-        Cerebro cpu = new Cerebro();
+        /*Cerebro cpu = new Cerebro();
 
-        cpu.partida();
+        cpu.partida();*/
 
+        ServerMain server = new ServerMain(8100);
+        server.escuchar();
     }
 }
